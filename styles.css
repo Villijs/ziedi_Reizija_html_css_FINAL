@@ -1,0 +1,179 @@
+* { box-sizing: border-box; }
+body {
+    width: 1366px;
+    height: 880px;
+    margin:0px 80px 0px;
+    background-image: url("body_backg.png");
+}
+@font-face {
+    font-family: 'liberty_tlregular';
+    src: url('liberty-webfont.woff2') format('woff2'),
+         url('liberty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+img {
+    width: 1026px;
+    height: auto;
+    margin-left: 170px;
+}
+nav {
+    width: 1044px;
+    height: 65px;
+    margin-left: 160px;
+    margin-top: -372px;
+    position: relative;
+    padding: 0;
+}
+ul {
+    display: flex; 
+    list-style: none;
+    margin-top: -53px;
+    padding: 0;
+}
+li {
+    padding-right: 8px;
+    height: 20px;
+    color: black;
+    padding-left: 21.5px;
+}
+nav>img {
+    width: 1056px;
+    height: 78px;
+    margin-left: -5px;
+    margin-top: -6px;
+}
+a {
+    text-decoration: none;
+    font-size: 17.08px;
+    color: #d6c59a;
+}
+.logo {
+    width: 298px;
+    height: 158px;
+    margin-left: -89px;
+    margin-top: -43px;
+    position: relative;
+}
+.logo_li {
+    padding:0;
+}
+.long_pad {
+    padding-right: 109px;
+}
+.after_pad {
+    padding-left: 7px;
+}
+.name {
+    width: 212px;
+    height: auto;
+    position: absolute;
+    margin-left: -47px;
+    margin-top: -46px;
+}
+.overlay {
+    position: relative;
+}
+main {
+    width: 1025px;
+    height: 415px;
+    margin: 302px 0px 0px 170px;
+    background: white;
+    padding-top: 56px;
+}
+.main_line {
+    position: relative;
+    margin: 40px;
+    width: 900px;
+    height: 3px;
+    padding-left: 46px;
+    top: -38px;
+}
+.lang {
+    position: absolute;
+    margin-left: 1057.5px;
+    margin-top: -42px;
+    height: 48px;
+}
+.lv {
+    color: #2fd39c;
+    font-size: 14.95px;
+    position: relative;
+    top: -6px;
+}
+.ru {
+    color: #f2d852;
+    color: #f2d852;
+    font-size: 14.95px;
+}
+h1 {
+    font-size: 55px;
+    font-family: 'liberty_tlregular';
+    margin-top: -119px;
+    font-weight: 100;
+    margin-left: 389px;
+    letter-spacing: 0.8px;
+    word-spacing: -1px;
+    color: #d6c59a;
+}
+.text {
+    font-size: 13.88px;
+    color: #6d6e71;
+    font-family: "Georgia";
+    line-height: 1.8;
+    width: 376px;
+    text-align-last: justify;
+}
+.first {
+    margin:-17px 0px 23px 85px;
+}
+.under {
+    margin-left: 86px;
+}
+.right_side {
+    margin-top: -235px;
+    margin-left: 564px;
+    width: 378px;
+}
+.unjustify {
+    display: inline-block;
+}
+.right_side_under {
+    margin-left: 565px;
+    margin-top: 24px;
+}
+.bottom {
+    display: inline-block;
+    margin: 14px 0px 0px 325px;
+    text-align-last: center;
+}
+.extra_space {
+    word-spacing: -1px;
+}
+.vest {
+    text-decoration: none;
+    font-size: 13.88px;
+    color: #77deb8;
+}
+footer {
+    width: 1025px;
+    height: 65px;
+    margin-left: 170px;
+}
+.foot_img {
+    margin: 0;
+    width: 198px;
+    padding-top: 29px;
+}
+.izst {
+    color: #8fd8be;
+    width: 68px;
+    float: right;
+    font-size: 13.88px;
+    margin: 27px 33px;
+}
+.izst_logo {
+    width: 30px;
+    float: right;
+    margin: 19px -136px;
+}
